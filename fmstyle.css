@@ -71,6 +71,7 @@ body {
     color: gray;
 }
 
+/*----------FOOD MENU CONTAINER---------*/
 .foodmenu .foodcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -81,13 +82,11 @@ body {
 .foodmenu .foodcontainer .foodbox {
     padding: 2.5rem;
     background: var(--maincolor2);
-    border-radius: 1rem;
-    box-shadow: var(--box-shadow); /* UNKNOWN */
+    border-radius: 2rem;
     position: relative;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
 }
-
 
 .foodmenu .foodcontainer .foodbox .foodcontent {
     display: flex;
@@ -97,7 +96,7 @@ body {
 .foodmenu .foodcontainer .foodbox .foodcontent img {
     max-width: 200px; 
     height: auto;
-    margin-right: 1rem; 
+    margin-right: 2rem; 
 }
 
 .foodmenu .foodcontainer .foodbox .foodcontent .info {
@@ -111,14 +110,16 @@ body {
 .foodmenu .foodcontainer .foodbox .foodcontent .info .prices {
     display: flex;
     flex-direction: column;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
 }
 
 .foodmenu .foodcontainer .foodbox .foodcontent .info .prices span.boneless {
     margin-top: 1rem;
-    font-size: 19px;
-    font-weight: bold;
+    font-size: 1.5rem;
 }
 
+/*----------RETURN TOP ARROW---------*/
 .return-to-top {
     position: fixed;
     bottom: 20px;
@@ -139,6 +140,7 @@ body {
 .info h3{
     color: var(--textcolor);
     font-weight: 200;
+    font-size: 2rem;
 }
 
 .prices {

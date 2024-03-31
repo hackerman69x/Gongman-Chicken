@@ -22,11 +22,12 @@ body {
     text-align: center;
     color: white;
     font-size: 50px;
+    font-weight: 200;
 }
 
 .foodcategory-header{
     text-align: center;
-    color: rgba(171,114,44,255);
+    color: var(--textcolor);
     font-size: 35px;
 }
 
@@ -74,14 +75,14 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap: 1.5rem;
-    padding: 20px;
+    padding: 100px;
 }
 
 .foodmenu .foodcontainer .foodbox {
     padding: 2.5rem;
-    background: rgba(171, 114, 44, 255);
+    background: var(--maincolor2);
     border-radius: 1rem;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow); /* UNKNOWN */
     position: relative;
     overflow: hidden;
     text-align: left;
@@ -133,4 +134,14 @@ body {
 
 .return-to-top.show {
     display: block;
+}
+
+.info h3{
+    color: var(--textcolor);
+    font-weight: 200;
+}
+
+.prices {
+    color: var(--textcolor);
+    font-weight: 200;
 }

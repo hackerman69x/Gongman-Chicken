@@ -8,8 +8,14 @@
     font-family: "Lilita One", sans-serif;
 }
 
+:root {
+    --maincolor: #282e32;
+    --maincolor2: #ab722c;
+    --textcolor: #ffff;
+}
+
 body {
-    background-color: rgba(40,46,50,255);
+    background-color: var(--maincolor);
 }
 
 .foodmenuheading {
@@ -128,7 +134,3 @@ body {
 .return-to-top.show {
     display: block;
 }
-
-
-
-

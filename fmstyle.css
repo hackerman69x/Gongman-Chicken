@@ -8,24 +8,6 @@
     font-family: "Lilita One", sans-serif;
 }
 
-
-.back-to-home {
-    position: fixed;
-    top: 20px; /* Adjust this value to position the button vertically */
-    left: 20px; /* Adjust this value to position the button horizontally */
-    z-index: 9999; /* Ensure the button is above other content */
-    background-color: #ffffff; /* Button background color */
-    color: #000000; /* Button text color */
-    padding: 10px 20px; /* Adjust padding to make the button larger or smaller */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Add rounded corners */
-    border: 1px solid #000000; /* Add border */
-}
-
-.back-to-home:hover {
-    background-color: #f0f0f0; /* Change background color on hover */
-}
-
 body {
     background-color: rgba(40,46,50,255);
 }
@@ -43,11 +25,11 @@ body {
 }
 
 .foodnavbox {
-    margin: 0 auto; /* Center the navbox horizontally */
+    margin: 0 auto;
     max-width: 400px; /* Adjust max-width as per your design */
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 .foodnavbox ul {
@@ -58,15 +40,15 @@ body {
 .foodnavbox ul li {
     display: flex;
     justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    align-items: center;
     border: 2px solid #333;
     padding: 20px;
     width: 200px;
-    height: 50px; /* Adjust height as needed */
+    height: 50px;
     background-color: black;
     color: white;
     border-radius: 15px; /* Adjust the value to control the curvature */
-    transition: transform 0.2s; /* Add transition for smoother hover effect */
+    transition: transform 0.2s;
 }
 
 .foodnavbox ul li:hover {
@@ -91,7 +73,7 @@ body {
 
 .foodmenu .foodcontainer .foodbox {
     padding: 2.5rem;
-    background: rgba(171, 114, 44, 255); /* Change background color here */
+    background: rgba(171, 114, 44, 255);
     border-radius: 1rem;
     box-shadow: var(--box-shadow);
     position: relative;
@@ -102,21 +84,21 @@ body {
 
 .foodmenu .foodcontainer .foodbox .foodcontent {
     display: flex;
-    align-items: center; /* Align items vertically */
+    align-items: center; 
 }
 
 .foodmenu .foodcontainer .foodbox .foodcontent img {
-    max-width: 200px; /* Adjust the size of the image */
+    max-width: 200px; 
     height: auto;
-    margin-right: 1rem; /* Add margin between image and text */
+    margin-right: 1rem; 
 }
 
 .foodmenu .foodcontainer .foodbox .foodcontent .info {
-    flex-grow: 1; /* Expand to fill remaining space */
+    flex-grow: 1; 
 }
 
 .foodmenu .foodcontainer .foodbox .foodcontent .info h3 {
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 
 .foodmenu .foodcontainer .foodbox .foodcontent .info .prices {
@@ -125,7 +107,7 @@ body {
 }
 
 .foodmenu .foodcontainer .foodbox .foodcontent .info .prices span.boneless {
-    margin-top: 1rem; /* Add space before the Boneless price */
+    margin-top: 1rem;
     font-size: 19px;
     font-weight: bold;
 }
@@ -135,11 +117,11 @@ body {
     bottom: 20px;
     right: 20px;
     display: none;
-    z-index: 1000; /* Ensure the icon appears above other elements */
+    z-index: 1000;
 }
 
 .return-to-top img {
-    width: 50px; /* Adjust the size of the icon as needed */
+    width: 50px; 
     height: auto;
 }
 
@@ -147,7 +129,6 @@ body {
     display: block;
 }
 
-/* Add other styles as needed */
 
 
 

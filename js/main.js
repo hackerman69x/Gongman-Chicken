@@ -1,3 +1,14 @@
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+
+menu.addEventListener("click", function () {
+    navbar.classList.toggle("active");
+});
+
+window.onscroll = () => {
+    navbar.classList.remove("active")
+};
+
 document.addEventListener("DOMContentLoaded", function() {
     // Get all food category containers
     const chickenFoods = document.getElementById("chicken-foods");
@@ -51,15 +62,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     
 });
-
-let menu = document.querySelector("#menu-icon");
-let navbar = document.querySelector(".navbar");
-
-menu.addEventListener("click", function () {
-    navbar.classList.toggle("active");
-});
-
-window.onscroll = () => {
-    navbar.classList.remove("active")
-};
-

@@ -47,7 +47,7 @@ body {
     align-items: center;
 }
 
-.foodnavbox ul li {
+.foodnavbox ul li a{
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center;
@@ -62,15 +62,16 @@ body {
 }
 
 .foodnavbox ul li:hover {
-    transform: scale(1.1); /* Adjust the scale value for the hover effect */
+    transform: scale(1.1);
+    transition: transform 0.2s;
 }
 
-.foodnav ul {
+.foodnav ul li {
     display: flex;
     align-items: center;
 }
 
-.foodnav ul li:hover {
+.foodnav ul li a:hover {
     color: var(--maincolor)
 }
 
@@ -131,4 +132,38 @@ body {
 .prices {
     color: var(--textcolor);
     font-weight: 200;
+}
+
+/*----------JAVASCRIPT---------*/
+
+@media (max-width: 1140px) {
+    .foodmenu .foodcontainer {
+        padding: 50px;
+    }
+    .foodmenu .foodcontainer .foodbox {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .foodmenu .foodcontainer {
+        padding: 100px 7%;
+    }
+}
+
+@media (max-width: 575px) {
+    .foodmenuheading {
+        font-size: 2rem;
+    }
+    .foodcategory-header {
+        font-size: 1.5rem;
+    }
+    .foodnavbox {
+        max-width: 150px;
+    }
+    .foodnavbox ul li {
+        width: 150px;
+        height: 40px;
+        padding: 15px;
+    }
 }

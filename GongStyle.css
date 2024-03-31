@@ -118,6 +118,7 @@ section {
 .abt:hover {
     transform: scale(1.2) translateY(5px);
     transition: .2s;
+    color: var(--maincolor);
 }
 
 /*----------MAIN MENU----------*/
@@ -199,6 +200,7 @@ section {
 .fm:hover {
     transform: scale(1.1) translateY(5px);
     transition: .2s;
+    color: var(--maincolor);
 }
 
 /*----------FEEDBACK---------*/

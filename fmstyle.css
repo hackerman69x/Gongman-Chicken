@@ -21,19 +21,22 @@ body {
 .foodmenuheading {
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 200;
+    padding: 25px;
 }
 
 .foodcategory-header{
     text-align: center;
     color: var(--textcolor);
-    font-size: 35px;
+    font-size: 2rem;
+    padding-top: 50px;
 }
 
+/*----------NAVIGATION BOX---------*/
 .foodnavbox {
     margin: 0 auto;
-    max-width: 400px; /* Adjust max-width as per your design */
+    max-width: 200px; /* Adjust max-width as per your design */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,13 +51,13 @@ body {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center;
-    border: 2px solid #333;
+    border: 2px solid #282e32;
     padding: 20px;
     width: 200px;
     height: 50px;
-    background-color: black;
-    color: white;
-    border-radius: 15px; /* Adjust the value to control the curvature */
+    background-color: var(--maincolor2);
+    color: var(--textcolor);
+    border-radius: 2rem; /* Adjust the value to control the curvature */
     transition: transform 0.2s;
 }
 
@@ -68,7 +71,7 @@ body {
 }
 
 .foodnav ul li:hover {
-    color: gray;
+    color: var(--maincolor)
 }
 
 /*----------FOOD MENU CONTAINER---------*/
@@ -76,7 +79,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap: 1.5rem;
-    padding: 100px;
+    padding: 75px;
 }
 
 .foodmenu .foodcontainer .foodbox {
@@ -117,24 +120,6 @@ body {
 .foodmenu .foodcontainer .foodbox .foodcontent .info .prices span.boneless {
     margin-top: 1rem;
     font-size: 1.5rem;
-}
-
-/*----------RETURN TOP ARROW---------*/
-.return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    z-index: 1000;
-}
-
-.return-to-top img {
-    width: 50px; 
-    height: auto;
-}
-
-.return-to-top.show {
-    display: block;
 }
 
 .info h3{

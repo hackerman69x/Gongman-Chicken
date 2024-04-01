@@ -7,7 +7,6 @@
     list-style: none;
     text-decoration: none;
 }
-
 :root {
     --maincolor: #282e32;
     --maincolor2: #ab722c;
@@ -18,9 +17,6 @@ body {
     background-color: var(--maincolor2);
     color: var(--textcolor);
 }
-
-
-
 .message {
     display: flex;
     flex-direction: column;
@@ -28,24 +24,16 @@ body {
     padding: 100px;
     font-family: "Lilita One", sans-serif;
     font-size: 40px;
-    
 }
-
-
 h1 {
     margin-bottom: 10px;
-    
-
 }       
 
-        
- 
 @media (min-width: 600px) {
     .content {
         flex-direction: row;
         justify-content: space-between;
     }
-
     .address {
         width: 70%; 
     }
@@ -60,6 +48,3 @@ h1 {
         width:fit-content;
     }
 }
-
-
-

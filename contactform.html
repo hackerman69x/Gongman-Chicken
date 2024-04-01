@@ -12,17 +12,31 @@
     <title>Gongman Chicken | Contact Form</title>
 </head>
 <body>
-    <div class="cformcontainer">
-        <div class="cformheading">Get in touch with us!</div>
-        <form action="https://formsubmit.co/gongmangys@gmail.com" method="POST"> <!--Change email to client email. Verify their email to activate the form.-->
-            <input type="text" name ="Name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Email id" required>
-            <input type="number" name="phone" placeholder="Phone No." required>
-            <textarea name="message"  rows="4" placeholder="How can we help you?"></textarea>
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_cc" value="another@email.com,yetanother@email.com"> <!--add more emails-->
-            <button type="submit">Send</button>
-        </form>
+
+    <div class="background-image">
+
+        <div class="cformcontainer">
+            <div class="cformheading">Get in touch with us!</div>
+            <form action="https://formsubmit.co/gongmangys@gmail.com" method="POST"> <!--Change email to client email. Verify their email to activate the form.-->
+                <input type="text" name ="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Email id" required>
+                <input type="number" name="phone" placeholder="Phone No." required>
+                <textarea name="message"  rows="4" placeholder="How can we help you?"></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_cc" value="another@email.com,yetanother@email.com"> <!--add more emails-->
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
     </div>
 </body>
+
+<style>
+    .background-image {
+        background-image: url(pic/scratch.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+</style>
 </html>

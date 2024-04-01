@@ -116,7 +116,7 @@ section {
     transition: all .2s ease;
 }
 .abt:hover {
-    transform: scale(1.2) translateY(5px);
+    transform: scale(1.2) translateZ(5px);
     transition: .2s;
     color: var(--maincolor);
 }
@@ -160,7 +160,7 @@ section {
     margin-bottom: -20%;
 }
 .box:hover {
-    transform: scale(1.1) translateY(5px);
+    transform: scale(1.1) translateZ(5px);
     transition: .3s;
 }
 .boxpic {
@@ -198,7 +198,7 @@ section {
     align-items: center;
 }
 .fm:hover {
-    transform: scale(1.1) translateY(5px);
+    transform: scale(1.1) translateZ(5px);
     transition: .2s;
     color: var(--maincolor);
 }

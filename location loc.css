@@ -19,10 +19,6 @@ body {
     color: var(--textcolor);
 }
 
-      
-
-        
- 
 .content {
     display: flex;
     flex-direction: column;

@@ -1,26 +1,34 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+    scroll-behavior: smooth;
     list-style: none;
     text-decoration: none;
-    scroll-behavior: smooth;
-    font-family: "Lilita One", sans-serif;
+}
+:root {
+    --maincolor: #282e32;
+    --maincolor2: #ab722c;
+    --textcolor: #ffffff;
 }
 
+body {
+    background-color: var(--maincolor);
+    color: var(--textcolor);
+}
 .cformheading {
     text-align: center;
     color: white;
     font-size: 50px;
-    margin-bottom: 20px; /* Add margin bottom to separate from the form */
+    margin-bottom: 20px;
 }
 
 .cformcontainer {
     width: 100%;
     height: 100vh;
-    background-color: #282e32;
     display: flex;
-    flex-direction: column; /* Adjust to column layout */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -56,4 +64,11 @@ form button {
     width: 150px;
     margin: 20px auto 0;
     border-radius: 30px;
+    transition: all .2s ease;
 }
+
+form button:hover {
+    transform: scale(1.1) translateZ(5px);
+    transition: .2s;
+}
+

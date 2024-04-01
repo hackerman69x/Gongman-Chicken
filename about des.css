@@ -17,6 +17,9 @@ body {
     background-color: var(--maincolor2);
     color: var(--textcolor);
 }
+
+
+
 .message {
     display: flex;
     flex-direction: column;

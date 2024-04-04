@@ -1,5 +1,6 @@
 <?php include('partials/menu.php');  ?> 
 
+
 <div class="main-content">
      <div class="wrapper">
             <h1>Add Admin</h1>
@@ -57,6 +58,8 @@
 </div>
 
 
+
+
 <?php include('partials/footer.php') ?>
 
 
@@ -87,7 +90,7 @@
         
 
         // Execute query and saving data into database
-        $res = mysqli_query($conn, $sql) or die(mysqli_error($conn));
+        $res = mysqli_query($conn, $sql) or die(mysqli_error());
 
        // Check if the (Query is Executed) data is inserted or not adn display appropriate message
        if($res==TRUE)

@@ -12,14 +12,15 @@
 }
 
 .wrapper{
+    
     padding: 1%;
     width: 80%;
     margin: 0 auto;
-    color: var(--textcolor);
 }
 
 .text-center{
     text-align: center;
+    
 }
 
 .clearfix{
@@ -39,12 +40,11 @@ table tr th{
     border-bottom: 1px solid black;
     padding: 1%;
     text-align: left;
-    color: var(--textcolor);
+    
 }
 
 table tr td{
     padding: 1%;
-    color: var(--textcolor);
 }
 
 .btn-primary{
@@ -56,25 +56,25 @@ table tr td{
 }
 
 .btn-primary:hover{
-    background-color: var(--maincolor2);
+    background-color: lightcoral;
 }
 
 .btn-secondary{
     background-color: lightcyan;
     padding: 1%;
-    color: var(--maincolor);
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
 
 .btn-secondary:hover{
-    background-color: var(--maincolor2);
+    background-color: purple;
 }
 
 .btn-danger{
     background-color: lightgoldenrodyellow;
     padding: 1%;
-    color: var(--maincolor);
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
@@ -107,22 +107,22 @@ table tr td{
 .menu ul li a{
     text-decoration: none;
     font-weight: bold;
-    color: var(--maincolor);
+    color: black;
 }
 
 .menu ul li a:hover{
-    color: var(--maincolor2);
+    color: blueviolet;
 
 }
 /* CSS for Main Content */
 .main-content{
-    background-color: var(--maincolor);
+    background-color: aliceblue;
     padding: 3% 0;
 }
 
 .col-4{
     width: 18%;
-    background-color: var(--maincolor2);
+    background-color: white;
     margin: 1%;
     padding: 2%;
     float: left;
@@ -130,6 +130,14 @@ table tr td{
 
 /* CSS for Footer */
 .footer{
-    background-color: var(--maincolor2);
+    background-color: #ab722c;
     color: white;
+}
+
+/* CSS for login */
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
 }

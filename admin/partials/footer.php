@@ -7,10 +7,5 @@
 
         </div>
         <!----------Footer Section Ends--------->
-
-
     </body>
-
-
-
 </html>

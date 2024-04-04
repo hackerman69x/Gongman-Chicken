@@ -3,7 +3,7 @@
 
 <html>
     <head>
-        <title>Food Order Website - Home Page</title>
+        <title>Gongman Chicken Admin</title>
 
         <link rel="stylesheet" href="../back-end-css/admin.css">
     </head>

@@ -130,7 +130,7 @@ table tr td{
 
 /* CSS for Footer */
 .footer{
-    background-color: #ab722c;
+    background-color: var(--maincolor2);
     color: white;
 }
 

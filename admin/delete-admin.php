@@ -36,8 +36,5 @@
     
     // 3. Redirect to Manage Admin page with message (success/error)
 
-    
-
-
 
 ?>

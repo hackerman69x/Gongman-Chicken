@@ -1,8 +1,4 @@
-<?php 
-
-include('../config/constants.php');  
-
-?> 
+<?php include('..back-end-css/admin.css');?>
 
 
 <html>

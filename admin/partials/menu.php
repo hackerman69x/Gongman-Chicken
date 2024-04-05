@@ -1,4 +1,3 @@
-<?php include('..back-end-css/admin.css');?>
 
 
 <html>
